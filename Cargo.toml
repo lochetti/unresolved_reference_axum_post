@@ -1,0 +1,12 @@
+[package]
+name = "unresolved_reference_axum_post"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = { version = "0.6.15" }
+axum-server = { version = "0.4.7" }
+hyper = { version = "0.14.16" }
+tokio = { version = "1", features=["signal", "rt-multi-thread"]}
